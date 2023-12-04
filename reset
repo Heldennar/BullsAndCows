@@ -1,0 +1,31 @@
+[33mcommit b5ead0a2a98206623419875543e602d0aba9b203[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Heldennar <37499129+Heldennar@users.noreply.github.com>
+Date:   Sun Dec 3 20:13:05 2023 +0900
+
+    Update .gitattributes
+
+[33mcommit 7d3e60531b67778552ff815ffd564f1a5a0d926d[m
+Author: Heldennar <37499129+Heldennar@users.noreply.github.com>
+Date:   Sun Dec 3 20:11:30 2023 +0900
+
+    Revert "upload"
+    
+    This reverts commit 15798230c271954129d5cdf5496aa9e59d8a51df.
+
+[33mcommit 05e6dfbe40ef59418fdeed6ffe219155d42d9656[m
+Author: Heldennar <37499129+Heldennar@users.noreply.github.com>
+Date:   Sun Dec 3 20:07:42 2023 +0900
+
+    add gitattributes
+
+[33mcommit 15798230c271954129d5cdf5496aa9e59d8a51df[m
+Author: Heldennar <37499129+Heldennar@users.noreply.github.com>
+Date:   Sun Dec 3 18:10:41 2023 +0900
+
+    upload
+
+[33mcommit 6f6422281053cbb4093a2b2ccdc5b1b7479d27a5[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: Heldennar <37499129+Heldennar@users.noreply.github.com>
+Date:   Sun Dec 3 17:43:41 2023 +0900
+
+    Add gitattributes

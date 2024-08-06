@@ -5,13 +5,13 @@ using UnityEngine;
 public class Enemy : MonoBehaviour
 {
     [SerializeField]
-    int[] EnemyNums = new int[4];
-    public GameObject controller = new GameObject();
+    int[] EnemyNums;
+    public GameObject controller;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        EnemyNums = new int[4];
     }
 
     // Update is called once per frame

@@ -6,9 +6,9 @@ using UnityEngine.UI;
 
 public class EnemyNumControl : MonoBehaviour
 {
-    public GameObject enemyObj = new GameObject();
-    public GameObject btnObj = new GameObject();
-    public GameObject turnObj = new GameObject();
+    public GameObject enemyObj;
+    public GameObject btnObj;
+    public GameObject turnObj;
     public GameObject[] numsTextObj;
     Button startBtn;
     Enemy enemy;
@@ -25,12 +25,9 @@ public class EnemyNumControl : MonoBehaviour
 
     void Start()
     {
-        //numsText[0] = numsTextObj[0].GetComponent<TextMeshProUGUI>();
-        
         for (int i = 0; i < 4; i++)
         {
             numsText[i] = numsTextObj[i].GetComponent<TextMeshProUGUI>();
-            //numsBack[i] = gameObject.transform.GetChild(i).GetComponent<Image>();
         }
         enemy = enemyObj.GetComponent<Enemy>();
         status = statusObj.GetComponent<TextMeshProUGUI>();
